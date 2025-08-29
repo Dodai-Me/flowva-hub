@@ -28,7 +28,7 @@ class FirstPage extends StatelessWidget {
                     Row(
                       children: [
                         Image.asset(
-                          Assets.images.logo.path,
+                          Assets.images.framer.path,
                           height: 24,
                           width: 16,
                         ),

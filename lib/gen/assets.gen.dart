@@ -20,14 +20,14 @@ class $AssetsImagesGen {
   /// File path: assets/images/figma.png
   AssetGenImage get figma => const AssetGenImage('assets/images/figma.png');
 
-  /// File path: assets/images/logo.png
-  AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
+  /// File path: assets/images/framer.png
+  AssetGenImage get framer => const AssetGenImage('assets/images/framer.png');
 
   /// File path: assets/images/notion.png
   AssetGenImage get notion => const AssetGenImage('assets/images/notion.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [chatgpt, figma, logo, notion];
+  List<AssetGenImage> get values => [chatgpt, figma, framer, notion];
 }
 
 class Assets {
