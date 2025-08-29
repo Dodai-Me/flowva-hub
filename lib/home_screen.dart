@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
             fit: FlexFit.loose,
             child: PageView(
               controller: _controller,
-              children: const [FirstPage(), SecondPage()],
+              children: [FirstPage(), SecondPage()],
             ),
           ),
           Container(
