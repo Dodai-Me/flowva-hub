@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CardTile extends StatelessWidget {
+  //For each card in the FirstPage except the first one
+
   const CardTile({
     super.key,
     required this.image,

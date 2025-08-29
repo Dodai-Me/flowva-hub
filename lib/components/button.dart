@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
+  //For the buttons in the first card of the FirstPage
+
   const Button({
     super.key,
     required this.containerColor,
