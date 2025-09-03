@@ -1,3 +1,4 @@
+import 'package:flowva_hub/constants.dart';
 import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
@@ -26,7 +27,14 @@ class Button extends StatelessWidget {
       child: GestureDetector(
         onTap: () {},
         child: Center(
-          child: Text(text, style: TextStyle(color: textColor)),
+          child: Text(
+            text,
+            style: kTextStyle.copyWith(
+              color: textColor,
+              fontSize: 17,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
         ),
       ),
     );

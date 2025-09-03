@@ -1,3 +1,4 @@
+import 'package:flowva_hub/constants.dart';
 import 'package:flutter/material.dart';
 
 class CardTile extends StatelessWidget {
@@ -23,12 +24,12 @@ class CardTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12.0),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.4)),
+      ),
       width: 343,
       height: 82,
-      decoration: BoxDecoration(
-        color: Color(0xFFFBE5E5),
-        borderRadius: BorderRadius.circular(12.0),
-      ),
       child: Padding(
         padding: const EdgeInsets.all(12.0),
         child: Row(
@@ -38,13 +39,28 @@ class CardTile extends StatelessWidget {
               children: [
                 Image.asset(image, width: width, height: height),
                 SizedBox(width: 10),
-                Text(name),
+                Text(
+                  name,
+                  style: kTextStyle.copyWith(
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
               ],
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               mainAxisAlignment: MainAxisAlignment.center,
-              children: [Text(bill), Text(notice)],
+              children: [
+                Text(bill, style: kTextStyle.copyWith(fontSize: 18)),
+                Text(
+                  notice,
+                  style: kTextStyle.copyWith(
+                    fontSize: 15,
+                    color: Colors.black26,
+                  ),
+                ),
+              ],
             ),
           ],
         ),

@@ -14,6 +14,9 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/blender.png
+  AssetGenImage get blender => const AssetGenImage('assets/images/blender.png');
+
   /// File path: assets/images/chatgpt.png
   AssetGenImage get chatgpt => const AssetGenImage('assets/images/chatgpt.png');
 
@@ -27,7 +30,7 @@ class $AssetsImagesGen {
   AssetGenImage get notion => const AssetGenImage('assets/images/notion.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [chatgpt, figma, framer, notion];
+  List<AssetGenImage> get values => [blender, chatgpt, figma, framer, notion];
 }
 
 class Assets {
