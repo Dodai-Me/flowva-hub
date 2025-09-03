@@ -14,6 +14,13 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/blackwhitearrow.png
+  AssetGenImage get blackwhitearrow =>
+      const AssetGenImage('assets/images/blackwhitearrow.png');
+
+  /// File path: assets/images/canva.png
+  AssetGenImage get canva => const AssetGenImage('assets/images/canva.png');
+
   /// File path: assets/images/chatgpt.png
   AssetGenImage get chatgpt => const AssetGenImage('assets/images/chatgpt.png');
 
@@ -23,11 +30,35 @@ class $AssetsImagesGen {
   /// File path: assets/images/framer.png
   AssetGenImage get framer => const AssetGenImage('assets/images/framer.png');
 
+  /// File path: assets/images/microyellow.png
+  AssetGenImage get microyellow =>
+      const AssetGenImage('assets/images/microyellow.png');
+
   /// File path: assets/images/notion.png
   AssetGenImage get notion => const AssetGenImage('assets/images/notion.png');
 
+  /// File path: assets/images/purple.png
+  AssetGenImage get purple => const AssetGenImage('assets/images/purple.png');
+
+  /// File path: assets/images/s.png
+  AssetGenImage get s => const AssetGenImage('assets/images/s.png');
+
+  /// File path: assets/images/slack.png
+  AssetGenImage get slack => const AssetGenImage('assets/images/slack.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [chatgpt, figma, framer, notion];
+  List<AssetGenImage> get values => [
+    blackwhitearrow,
+    canva,
+    chatgpt,
+    figma,
+    framer,
+    microyellow,
+    notion,
+    purple,
+    s,
+    slack,
+  ];
 }
 
 class Assets {
